@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/food.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h1 class="title">Find The Best Meal 4 You.</h1>
+                <blockquote>
+                    A recipe has no soul. You, as the cook, must bring soul to the recipe.<br>
+                    --Thomas Keller
+                </blockquote>
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Enter An Ingradiant" id="search-element">
+                    <button type="submit" class="search-btn btn" id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <button class="btn back">Back To Catagoreis</button>
+            <div class="meal-results">
+                <h3 class="title" id="title">Catagoreis</h3>
+                <div id="meal">
+
+                </div>
+            </div>
+
+
+            <div class="meal-details">
+                <!-- recipe close btn  -->
+                <button class="btn recipe-close-btn"><i class="fas fa-times"></i></button>
+                <!-- meal details  -->
+                <div class="meal-details-content">
+                   <div class="info">
+                    <img src="./assets/food.jpg" alt="">
+                    <div class="info-txt">
+                        <h2 class="name"></h2>
+                        <p class="cat"></p>
+                    </div>
+                   </div>
+                   <span class="line"></span>
+                
+                   <h2>How To Prepare</h2>
+                   <p class="instructions"></p>
+                   <a href="#">Watch Video</a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Meal Item  -->
+<!-- <div class="meal-item">
+    <div class="meal-img">
+        <img src="./assets/food.jpg" alt="">
+    </div>
+    <h3 class="meal-name">Potato Chips</h3>
+    <a href="#" class="recipe-btn" >Get Recipe</a>
+</div> -->
+
+<!-- End Meal Item  -->
+
+
+
